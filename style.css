@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    position: relative;
+    margin-top: 100px;
+    left: 401px;
+    width: 800px;
+    gap: 60px;
+}
+
+button {
+    border-width: 15px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 25%;
+}
+
+#level-title {
+    font-family: "Press Start 2P", cursive;
+    font-size: 3rem;
+    color: rgb(254, 242, 191);
+    text-align: center;
+    margin: 5%;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
